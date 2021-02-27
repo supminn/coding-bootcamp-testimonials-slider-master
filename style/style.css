@@ -1,13 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
 
-:root{
+:root {
     --Dark-Blue: hsl(240, 38%, 20%);
     --Grayish-Blue: hsl(240, 18%, 77%);
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
+    /* color: var(--Dark-Blue); */
+}
+
+.hidden {
+    display: none;
+}
+
+.img-container {
+    /* border: 1px solid red; */
+    background: url("/images/pattern-bg.svg") no-repeat;
+    background-size: contain;
+    /* padding-top: 2rem; */
+}
+
+.img-dp {
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+}
+
+.nav-container {
+    background-color: white;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px var(--Dark-Blue);
+    border-radius: 30px;
+    position: relative;
+    left: 38%;
+    top: -15px;
+}
+
+.nav-container img {
+    padding: 0.2rem 0.8rem;
+}
+
+.txt-container{
+    background: url(/images/pattern-quotes.svg) top no-repeat, url(/images/pattern-curve.svg) bottom no-repeat;
+    background-size: 20% 20%, 100% 25%;
+    color:var(--Dark-Blue);
+    font-size: large;
+}
+
+#desc{
+    color: var(--Grayish-Blue);
+    font-size: medium;
+    font-weight: normal;
+    padding-bottom: 5rem;
+}
+
+.txt-content{
+    padding: 2rem 1rem;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+h4{
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .attribution {
@@ -17,11 +78,10 @@ body{
     left: 50%;
     transform: translate(-50%);
     color: var(--white);
-  }
-  
-  .attribution a {
+}
+
+.attribution a {
     color: var(--white);
     font-style: italic;
     font-weight: bold;
-  }
-  
+}
