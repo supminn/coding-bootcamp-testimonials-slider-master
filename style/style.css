@@ -45,27 +45,27 @@ body {
     padding: 0.2rem 0.8rem;
 }
 
-.txt-container{
+.txt-container {
     background: url(/images/pattern-quotes.svg) top no-repeat, url(/images/pattern-curve.svg) bottom no-repeat;
     background-size: 20% 20%, 100% 25%;
-    color:var(--Dark-Blue);
+    color: var(--Dark-Blue);
     font-size: large;
 }
 
-#desc{
+#desc {
     color: var(--Grayish-Blue);
     font-size: medium;
     font-weight: normal;
     padding-bottom: 5rem;
 }
 
-.txt-content{
+.txt-content {
     padding: 2rem 1rem;
     text-align: center;
     padding-bottom: 0;
 }
 
-h4{
+h4 {
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -84,4 +84,61 @@ h4{
     color: var(--white);
     font-style: italic;
     font-weight: bold;
+}
+
+@media only screen and (min-width: 475px) {
+    .attribution {
+        top: 1%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    section {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+        margin: auto;
+        margin-top: 4%;
+    }
+
+    .attribution {
+        top: 95%;
+    }
+
+    .txt-content {
+        font-size: 32px;
+        text-align: left;
+        font-weight: 300;
+        width: 115%;
+        padding-left: 10%;
+    }
+
+    h4 {
+        display: inline;
+    }
+
+    #name {
+        padding-left: 10%;
+
+    }
+
+    .img-container {
+        width: 270%;
+        height: 550px;
+    }
+
+    .txt-container {
+        margin-top: 9%;
+        padding-bottom: 12%;
+    }
+
+    .img-dp {
+        margin-top: 8%;
+        margin-left: 9%;
+        width: 70%;
+    }
+
+    .nav-container {
+        left: 18%;
+    }
 }
