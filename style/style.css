@@ -19,11 +19,11 @@ body {
     /* border: 1px solid red; */
     background: url("/images/pattern-bg.svg") no-repeat;
     background-size: contain;
-    /* padding-top: 2rem; */
+    padding-top: 0.02rem;
 }
 
 .img-dp {
-    width: 75%;
+    width: 78%;
     display: block;
     margin: auto;
     margin-top: 2rem;
